@@ -1,0 +1,220 @@
+body {
+    background-color: #4682b4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#container {
+    width: 1200px;
+    height: 700px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 20px;
+}
+
+#left-side {
+    width: 25%;
+    height: 100%;
+    background-color:#EBF6FF ;
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+#right-side {
+    width: 25%;
+    height: 100%;
+    background-color:#EBF6FF;
+    float: right;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.profile-large {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+
+.profile-picture-container-large {
+    width: 60px;
+    height: 60px;
+    background: url(img/torpapa.png) center no-repeat;
+    border-radius: 100%;
+    background-size: contain;
+    border: solid 1px #ABC2D5;
+}
+
+h3, p {
+    margin: 0;
+    margin-top: 2px;
+}
+
+.profile-data-container-large{
+    padding: 0;
+    margin: 0;
+    flex-basis: 50%;
+}
+
+.pencil-icon {
+    margin-left: 20px;
+    max-width: 20px;
+}
+
+.pencil-icon button {
+    background-color: #EBF6FF;
+    border: none;
+    box-sizing: content-box;
+}
+
+.pencil-icon button:hover {
+    background-color: #EBF6FF;
+    border: none;
+    font-size: larger;
+
+}
+
+.search-form {
+    padding: 0 32px;
+
+}
+
+
+.search-button {
+    height: 33px;
+    width: 30px;
+    background: white url(img/search.PNG) center no-repeat;
+    border-top: solid 2px #ABC2D5;
+    border-left: solid 2px #ABC2D5;
+    border-bottom: solid 2px #ABC2D5;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+}
+
+.search-input {
+    height: 27px;
+    width: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: solid 2px #ABC2D5;
+    border-right: solid 2px #ABC2D5;
+    border-bottom: solid 2px #ABC2D5;
+    border-left: none;
+    background-color: white;
+}
+.search-input, .search-button:focus {
+    outline: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.chat-list {
+    display: block;
+}
+
+.profile-medium {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.profile-medium:hover {
+    background-color: #B8DCFA;
+}
+
+.profile-picture-container-medium {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: solid 1px #ABC2D5;
+    margin-top: 4px;
+    
+}
+
+#brainy-profile-pic {
+    background: url(img/okoska.png) center no-repeat;
+    background-size: contain;
+}
+
+#gargamel-profile-pic {
+    background: url(img/hokuszpok2.jpg) center no-repeat;
+    background-size: contain;
+}
+
+#hefty-profile-pic {
+    background: url(img/torperos.jpg) center no-repeat;
+    background-size: contain;
+}
+
+#azrael-profile-pic {
+    background: url(img/sziamiau.jpg) center no-repeat;
+    background-size: contain;
+}
+
+#vanity-profile-pic {
+    background: url(img/Torpojaca.jpg) center no-repeat;
+    background-size: contain;
+}
+
+
+#babysmurf-profile-pic {
+    background: url(img/torpicur.jpg) center no-repeat;
+    background-size: contain;
+}
+
+h4, small {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.profile-data-container-medium{
+    padding: 0;
+    width: 75%;
+    flex-basis: 50%;
+    
+}
+
+.time {
+    padding-top: 10px;
+    padding-right: 3px;
+}
+
+.message-time-status {
+    font-size: 12px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    height: 60px;
+    
+}
+
+.checked-status {
+    margin-top: 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
+}
+
+.new-message-status {
+    margin-top: 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
+    background-color:#1264a7 ;
+    width: 13px;
+    height: 13px;
+    padding-top: 1px;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    font-size: 10px;
+    font-weight: bold;
+}
